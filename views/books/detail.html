@@ -1,0 +1,49 @@
+<form novalidate class="form-horizontal" ng-submit="save()">
+  <!--  <div class="control-group">
+        <label class="control-label" for="title">Title</label>
+        <div class="controls">
+            <input type="text" ng-model="book.title" id="title"/>
+        </div> -->
+    </div>
+    <fieldset>
+        <legend>ADD OR EDIT CONTACT (FULL NAME)</legend>
+        <div class="control-group">
+            <label class="control-label" for="firstName">First Name</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.firstName" id="firstName" placeholder="First Name"/>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="lastName">Last Name</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.lastName" id="lastName" placeholder="Last Name"/>
+            </div>
+        </div>
+         <div class="control-group">
+            <label class="control-label" for="birthDay">Birth Day</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.birthDay" id="birthDay" placeholder="DD/MM/YYYY"/>
+            </div>
+        </div>
+         <div class="control-group">
+            <label class="control-label" for="company">Company</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.company" id="company" placeholder="Write Company"/>
+            </div>
+        </div>
+         <div class="control-group">
+            <label class="control-label" for="emailAddress">Email Address</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.emailAddress" id="emailAddress" placeholder="example@domain.com"/>
+            </div>
+        </div>
+         <div class="control-group">
+            <label class="control-label" for="mobileNumber">Mobile Number</label>
+            <div class="controls">
+                <input type="text" ng-model="book.contact.mobileNumber" id="mobileNumber" placeholder="000-000-0000"/>
+            </div>
+        </div>
+    </fieldset>
+    <br><hr>
+    <button id="save" class="btn btn-primary">Save</button>
+</form>
